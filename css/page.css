@@ -1,0 +1,99 @@
+#random-name{
+    padding-top: 20px;
+    width:90%;
+    margin:0 auto;
+    font-size: 24px;
+}
+#random-name .head-img{
+    
+}
+#random-name .head-img img{
+    display: block;
+    margin: 0 auto;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 5px 0px 30px #888888;
+} 
+#random-name .click-name,#random-name  .student-name{
+    text-align: center;
+    padding: 10px 0;
+}
+#random-name  .student-name .inner,#random-name .click-name .inner{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+#random-name .click-name .inner{
+    background-color: #fff;
+    box-shadow: 5px 0px 30px #888888;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#random-name .click-name .inner:hover{
+    
+    box-shadow: 5px 0px 30px #88ffaa;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#random-name .history-name{
+   padding:60px 0; 
+}
+#random-name .history-name .inner{
+    display: inline-block;
+    padding:10px; 
+    font-size: 12px;
+    color:gray;
+ }
+ .class-fixed{
+     position: fixed;
+     left: 0;
+     top: 0;
+     width:90px;
+     padding-top: 30px;
+ }
+ .class-fixed li{
+    margin-top: 5px;
+    width:70px;
+    transition: width 200ms;
+    -moz-transition: width 200ms; /* Firefox 4 */
+    -webkit-transition: width 200ms; /* Safari 和 Chrome */
+    -o-transition: width 200ms; /* Opera */
+}
+.class-fixed li:hover{
+    width:130px;
+}
+ .class-fixed a {
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+     text-decoration: none;
+     color:#fff;
+     font-size: 12px;
+     padding-left: 10px;
+ }
+ .class-fixed  .flag0, .class-fixed  .flag5{
+    background: #007bff;
+}
+.class-fixed  .flag1, .class-fixed  .flag6{
+    background: #28a745;
+}
+.class-fixed  .flag2, .class-fixed  .flag7{
+    background: #dc3545;
+}
+.class-fixed  .flag3, .class-fixed  .flag8{
+    background: #17a2b8;
+}
+.class-fixed  .flag4,.class-fixed  .flag9{
+    background: #28a745;
+}
+
+
+
+    
